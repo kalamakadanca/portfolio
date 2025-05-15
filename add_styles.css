@@ -22,10 +22,7 @@ h2 {
 
 
 .about {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
     background-color: #b4b4b4;
     padding: 15px;
     border-radius: 8px;
@@ -39,4 +36,14 @@ h2 {
 .basic-info {
     text-align: justify;
     margin-top: 0px;
+}
+.projects {
+    gap: 3rem;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    background-color: #b4b4b4;
+    width: 40%;
+    max-width: 1000px;
+    padding: 15px;
+    border-radius: 8px;
 }
