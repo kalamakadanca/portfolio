@@ -56,10 +56,8 @@ input, textarea{
 }
 
 
-
+/* about */
 .about {
-    display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #b4b4b4;
@@ -76,6 +74,7 @@ input, textarea{
     text-align: justify;
     margin-top: 0px;
 }
+/*      */
 
 /* main section */
 .main-sections {
