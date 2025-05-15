@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <title>Portfolio - Daniela | Programování, Matematika, Grafika</title>
+        <link rel="stylesheet" href="main_styles.css">
+        <meta name="description" content="Osobní portfolio zaměřené na programování, matematiku a grafiku. Ukázky projektů, vizualizací a digitální tvorby.">
+
+    </head>
+    <body>
+        <h1>Daniela Luuová</h1>
+        <h2>portfolio</h2>
+        <div class="container">
+            <div class="about">
+                <p>Ahoj, jsem Daniela a jsem studentka 2. ročníku na střední škole.</p>
+                <p class="basic-info">V tomto portfoliu najdete projekty zaměřené na <strong>programování</strong>, <strong>matematiku</strong> a <strong>grafiku</strong>. Jsou zde ukázky mých prací, které reflektují mé zájmy a dosavadní zkušenosti.
+                    <br><br>Baví mě hledat elegantní řešení problémů, tvořit užitečné nástroje a přitom dbát na vizuální stránku. 
+                    Ve volném šase se věnuji vlastním projektům, učení se nových technologií a kreativní tvorbě.
+                </p>
+            </div>
+        </div>
+        <div class="main-sections">
+            <a id="code" href="programovani.html" class="section">Programování</a>
+            <a id="math" href="matematika.html" class="section">Matematika</a>
+            <a id="art" href="grafika.html" class="section">Grafika</a>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <h3>kontakty:</h3>
+        <div class="contacts">
+            <div class="contact"><b>Email:</b> danielaluuova@seznam.cz</div>
+            <div class="contact"><b>Instagram:</b> <a href="https://www.instagram.com/kalamakadanca/" target="_blank">@kalamakadanca</a></div>
+        </div>
+        <div class="container">
+            <button class="contact-sender" id="openModal"><b>Rychlý kontakt</b></button>
+        </div>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="closeModal">&times;</span>
+                <h4>Rychlý kontakt</h4>
+                <h5>Pokud máte zájem o spolupráci, neváhejte mě kontaktovat.</h5>
+                <form>
+                    <label for="name">Jméno/název firmy:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+      
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <textarea class="form-area" id="message" placeholder="Vaše zpráva" required></textarea><br><br>
+                    <div class="container">
+                        <button class="submit-button" type="submit">Odeslat</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </body>
+    <script src="main.js"></script>
+</html>
