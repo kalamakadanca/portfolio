@@ -147,6 +147,7 @@ input, textarea{
     font-size: 18px;
     text-align: center;
     line-height: 50px;
+    cursor: pointer;
 }
 .contact-sender:hover {
     background-color: #ffbb4f;
