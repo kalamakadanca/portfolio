@@ -1,3 +1,7 @@
 Zdroje:
 
-programovani_algoritmy/fotky/sudoku.png - https://png.pngtree.com/png-clipart/20230102/original/pngtree-sudoku-easy-puzzles-png-image_8856278.png
+programovani_algoritmy/fotky/full_sudoku.gif - https://urbanrim.org.uk/images/sudoku-99.gif
+programovani_algoritmy/fotky/part_sudoku.png - https://png.pngtree.com/png-clipart/20230102/original/pngtree-sudoku-easy-puzzles-png-image_8856278.png
+programovani_algoritmy/fotky/part_sudoku_2.jpg - https://sudokupuzzlesprintable.net/wp-content/uploads/2022/06/these-printable-sudoku-puzzles-range-from-easy-to-hard-including-8.jpg
+
+
