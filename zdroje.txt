@@ -12,3 +12,14 @@ MATEMATIKA
     matematika/fotky/sin_kos.png - https://www.umimematiku.cz/book/cviceni-goniometricke-funkce
     matematika/fotky/komplexni_cisla.gif - https://www.mojeskola.cz/Vyuka/Php/Learning/matika_krokem3.php
     matematika/fotky/matematicka_olympiada.jpg - https://ddm-ph2.iddm.cz/admin/pictures/galleries/55551.jpg
+    matematika/fotky/rady_posloupnosti.png - https://isibalo.com/images/theme/3759b8c2d6413afe68c6e70c4eba381b.png
+    matematika/fotky/statistika.png - https://www.datova-akademie.cz/efektivni-analyza-dat/
+    matematika/fotky/pravdepodobnost.png - https://www.umimematiku.cz/cviceni-pravdepodobnost
+
+GRAFIKA
+    grafika/fotky/infografika.jpg - https://www.ecommercebridge.cz/infografika-co-to-vlastne-je-2/
+    grafika/fotky/plan_mistnost.jpg - https://www.pavon.cz/zaridte-si-obyvaci-pokoj-jako-profesional
+    grafika/fotky/ikonky_obliceju.jpg - https://www.istockphoto.com/cs/vektor/pr%C3%A1zdn%C3%BD-avatar-ikony-obli%C4%8Deje-s-vousy-vektorov%C3%A1-ilustrace-gm1470286440-501196213
+    grafika/fotky/fotomontaz.jpg - https://www.dyso.cz/fotomontaze-a-retuse/
+    grafika/fotky/pixel_art.jpeg - https://www.instagram.com/p/Cz2yn9rOygW/
+    grafika/fotky/obalka.jpg - https://hejkal.com/knizni-ilustrace/
