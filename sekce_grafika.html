@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+            color: white;
+            text-align: center;
+            font-family: sans-serif;
+            }
+            img {
+            max-width: 200px;
+            margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="nadpis"></h1>
+        <p id="text"></p>
+        <img id="obrazek" src="" alt="">
+
+        <script>
+            const params = new URLSearchParams(window.location.search);
+            const section = params.get("section");
+
+            const nadpis = document.getElementById("nadpis");
+            const text = document.getElementById("text");
+            const obrazek = document.getElementById("obrazek");
+
+            if (section === "ikonky_obliceju") {
+                nadpis.textContent = "Ikonky obličejů";
+                text.textContent = "Ikonky obličejů jsou malé grafické symboly představující různé výrazy tváře."
+                document.body.style.backgroundColor = "#1e1e1e";
+                obrazek.src = "grafika/fotky/ikonky_obliceju.jpg";
+            }
+            else if (section === "fotomontaz") {
+                nadpis.textContent = "Fotomontáž";
+                text.textContent = "Fotomontáž je technika, která spojuje různé fotografie nebo jejich části do jednoho nového obrazu.";
+                document.body.style.backgroundColor = "#1e1e1e";
+                obrazek.src = "grafika/fotky/fotomontaz.jpg";
+            }
+            else if (section === "infografika") {
+                nadpis.textContent = "Infografika";
+                text.textContent = "Infografika je grafické zobrazení informací, dat nebo znalostí. Infografiky kombinují text, obrázky a grafy, aby efektivně komunikovaly složité informace.";
+                document.body.style.backgroundColor = "#1e1e1e";
+                obrazek.src = "grafika/fotky/infografika.jpg";
+            }
+            else if (section === "plan_mistnosti") {
+                nadpis.textContent = "Plán místnosti";
+                text.textContent = "Plán místnosti je grafický návrh uspořádání nábytku a zařízení v daném prostoru.";
+                document.body.style.backgroundColor = "#1e1e1e";
+                obrazek.src = "grafika/fotky/plan_mistnosti.jpg";
+            }
+            else if (section === "pixel_art") {
+                nadpis.textContent = "Pixel Art";
+                text.textContent = "Pixel art je forma digitálního umění, která se vyznačuje použitím pixelů jako základního stavebního bloku. Tento styl umění je často spojován s retro videohrami a 8bitovou estetikou.";
+                document.body.style.backgroundColor = "#1e1e1e";
+                obrazek.src = "grafika/fotky/pixel_art.jpeg";
+            }
+            else if (section === "knizni_obalka") {
+                nadpis.textContent = "Knižní Obálka";
+                text.textContent = "Knižní obálka je grafický prvek, který slouží k ochraně a prezentaci knihy. Může obsahovat různé designové prvky, jako jsou obrázky, texty a barvy, které odrážejí obsah nebo účel knihy.";
+                document.body.style.backgroundColor = "#1e1e1e";
+                obrazek.src = "grafika/fotky/obalka.jpg";
+            }
+            else {
+                nadpis.textContent = "Neznámá sekce";
+                document.body.style.backgroundColor = "gray";
+            }
+        </script>
+    </body>
+</html>

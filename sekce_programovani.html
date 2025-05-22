@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+            color: white;
+            text-align: center;
+            font-family: sans-serif;
+            }
+            img {
+            max-width: 200px;
+            margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="nadpis"></h1>
+        <p id="text"></p>
+        <img id="obrazek" src="" alt="">
+
+        <script>
+            const params = new URLSearchParams(window.location.search);
+            const section = params.get("section");
+
+            const nadpis = document.getElementById("nadpis");
+            const text = document.getElementById("text");
+            const obrazek = document.getElementById("obrazek");
+
+            if (section === "kalkulacka") {
+                nadpis.textContent = "Kalkulačka";
+                text.textContent = "Kalkulačka je program, který provádí matematické operace. Může zahrnovat základní aritmetické operace, jako je sčítání, odčítání, násobení a dělení, stejně jako pokročilejší funkce, jako jsou trigonometrické funkce nebo logaritmy.";
+                document.body.style.backgroundColor = "#1e1e1e";
+                obrazek.src = "programovani/fotky/kalkulacka.jpeg";
+            }
+            else if (section === "piskvorky") {
+                nadpis.textContent = "Piškvorky 3x3";
+                text.textContent = "Piškvorky 3x3 je jednoduchá hra pro dva hráče, kde se snažíte umístit tři své symboly do řady, sloupce nebo diagonály na mřížce 3x3.";
+                document.body.style.backgroundColor = "#1e1e1e";
+                obrazek.src = "programovani/fotky/piskvorky.png";
+            }
+            else if (section === "todo") {
+                nadpis.textContent = "To-Do List";
+                text.textContent = "To-Do List je aplikace, která umožňuje uživatelům spravovat seznam úkolů. Uživatelé mohou přidávat, odstraňovat a označovat úkoly jako splněné.";
+                document.body.style.backgroundColor = "#1e1e1e";
+                obrazek.src = "programovani/fotky/todo.png";
+            }
+            else if (section === "generator_sudoku") {
+                nadpis.textContent = "Generátor Sudoku";
+                text.textContent = "Generátor Sudoku je program, který vytváří náhodné mřížky Sudoku. Používá algoritmus rekurzivního backtrackingu k zajištění, že každé číslo v mřížce je jedinečné a splňuje pravidla hry.";
+                document.body.style.backgroundColor = "#1e1e1e";
+                obrazek.src = "programovani/fotky/full_sudoku.gif";
+            }
+            else if (section === "uroven_1") {
+                nadpis.textContent = "Úroveň 1 - Sudoku";
+                text.textContent = "Úroveň 1 - Sudoku je nejjednodušší úroveň hry Sudoku, která obsahuje jednoduché mřížky s menším počtem předvyplněných čísel. Cílem je vyplnit mřížku tak, aby každé číslo od 1 do 9 bylo jedinečné v každém řádku, sloupci a bloku 3x3.";
+                document.body.style.backgroundColor = "#1e1e1e";
+                obrazek.src = "programovani/fotky/part_sudoku.png";
+            }
+            else if (section === "uroven_2") {
+                nadpis.textContent = "Úroveň 2 - Sudoku";
+                text.textContent = "Úroveň 2 - Sudoku je lehká úroveň hry Sudoku. Cílem je stále vyplnit mřížku tak, aby každé číslo od 1 do 9 bylo jedinečné v každém řádku, sloupci a bloku 3x3.";
+                document.body.style.backgroundColor = "#1e1e1e";
+                obrazek.src = "programovani/fotky/part_sudoku_2.jpg";
+            }
+            else {
+                nadpis.textContent = "Neznámá sekce";
+                document.body.style.backgroundColor = "gray";
+            }
+        </script>
+    </body>
+</html>

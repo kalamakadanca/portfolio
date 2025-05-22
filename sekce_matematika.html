@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+            color: white;
+            text-align: center;
+            font-family: sans-serif;
+            }
+            img {
+            max-width: 200px;
+            margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="nadpis"></h1>
+        <p id="text"></p>
+        <img id="obrazek" src="" alt="">
+
+        <script>
+            const params = new URLSearchParams(window.location.search);
+            const section = params.get("section");
+
+            const nadpis = document.getElementById("nadpis");
+            const text = document.getElementById("text");
+            const obrazek = document.getElementById("obrazek");
+
+            if (section === "sin_kos") {
+                nadpis.textContent = "Sinus a Kosinus";
+                text.textContent = "Sinus a kosinus jsou základní trigonometrické funkce, které se používají k popisu vztahů mezi úhly a stranami v pravoúhlých trojúhelnících.";
+                document.body.style.backgroundColor = "#1e1e1e";
+                obrazek.src = "matematika/fotky/sin_kos.png";
+            }
+            else if (section === "komplexni_cisla") {
+                nadpis.textContent = "Vizualizace komplexních čísel";
+                text.textContent = "Komplexní čísla jsou čísla, která mají reálnou a imaginární část. V této části se zaměříme na vizualizaci komplexních čísel.";
+                document.body.style.backgroundColor = "#1e1e1e";
+                obrazek.src = "matematika/fotky/komplexni_cisla.gif";
+            }
+            else if (section === "posloupnosti") {
+                nadpis.textContent = "Řady a Posloupnosti";
+                text.textContent = "Řady a posloupnosti jsou základními pojmy v matematice, které se zabývají uspořádáním čísel do určitého vzoru nebo struktury.";
+                document.body.style.backgroundColor = "#1e1e1e";
+                obrazek.src = "matematika/fotky/rady_posloupnosti.png";
+            }
+            else if (section === "matematicka_olympiada") {
+                nadpis.textContent = "Matematická olympiáda";
+                text.textContent = "Zde uvidíte můj postup první úlohy (2025) i s vysvětlením";
+                document.body.style.backgroundColor = "#1e1e1e";
+                obrazek.src = "matematika/fotky/matematicka_olympiada.jpg";
+            }
+            else if (section === "statistika") {
+                nadpis.textContent = "Statistika z reálných dat";
+                text.textContent = "Statistika je věda, která se zabývá shromažďováním, analýzou a interpretací dat. V této části se zaměříme na statistiku z reálných dat.";
+                document.body.style.backgroundColor = "#1e1e1e";
+                obrazek.src = "matematika/fotky/statistika.png";
+            }
+            else if (section === "pravdepodobnost") {
+                nadpis.textContent = "Pravděpodobnost";
+                text.textContent = "Pravděpodobnost je matematická disciplína, která se zabývá studiem náhodných jevů a jejich pravděpodobností.";
+                document.body.style.backgroundColor = "#1e1e1e";
+                obrazek.src = "matematika/fotky/pravdepodobnost.png";
+            }
+            else {
+                nadpis.textContent = "Neznámá sekce";
+                document.body.style.backgroundColor = "gray";
+            }
+        </script>
+    </body>
+</html>
