@@ -1,7 +1,14 @@
 Zdroje:
 
-programovani_algoritmy/fotky/full_sudoku.gif - https://urbanrim.org.uk/images/sudoku-99.gif
-programovani_algoritmy/fotky/part_sudoku.png - https://png.pngtree.com/png-clipart/20230102/original/pngtree-sudoku-easy-puzzles-png-image_8856278.png
-programovani_algoritmy/fotky/part_sudoku_2.jpg - https://sudokupuzzlesprintable.net/wp-content/uploads/2022/06/these-printable-sudoku-puzzles-range-from-easy-to-hard-including-8.jpg
+PROGRAMOVANI
+    programovani/fotky/full_sudoku.gif - https://urbanrim.org.uk/images/sudoku-99.gif
+    programovani/fotky/part_sudoku.png - https://png.pngtree.com/png-clipart/20230102/original/pngtree-sudoku-easy-puzzles-png-image_8856278.png
+    programovani/fotky/part_sudoku_2.jpg - https://sudokupuzzlesprintable.net/wp-content/uploads/2022/06/these-printable-sudoku-puzzles-range-from-easy-to-hard-including-8.jpg
+    programovani/fotky/kalkulacka.jpeg - https://www.pngegg.com/cs/png-wpidk
+    programovani/fotky/piskvorky.png - https://gamescrafters.berkeley.edu/games.php?game=tictactoe
+    programovani/fotky/todo.png - https://metalop.com/ToDo-List-Pro/
 
-
+MATEMATIKA
+    matematika/fotky/sin_kos.png - https://www.umimematiku.cz/book/cviceni-goniometricke-funkce
+    matematika/fotky/komplexni_cisla.gif - https://www.mojeskola.cz/Vyuka/Php/Learning/matika_krokem3.php
+    matematika/fotky/matematicka_olympiada.jpg - https://ddm-ph2.iddm.cz/admin/pictures/galleries/55551.jpg
